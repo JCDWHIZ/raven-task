@@ -1,0 +1,69 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Background color stays the same */
+}
+
+.auth {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Updated shadow for more depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth__title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth__form {
+  width: 100%;
+}
+
+.auth__label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.auth__input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.auth__input:focus {
+  border-color: #1890ff; /* Focus state with blue border */
+}
+
+.auth__button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1890ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth__button:hover {
+  background-color: #003cff; /* Light blue hover effect */
+}

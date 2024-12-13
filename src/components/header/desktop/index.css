@@ -1,0 +1,58 @@
+/* Updated class names for better structure */
+
+.desktop_header {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop_header__left {
+  width: 50%;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  color: white;
+}
+
+.desktop_header__logo {
+  border-right: 1px solid #a7b1bc;
+  height: 40px;
+  width: 25%;
+}
+
+.desktop_header__nav {
+  display: flex;
+  width: 276px;
+  justify-content: space-between;
+}
+
+.desktop_header__right {
+  width: 261px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop_header__profile {
+  width: 181px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #12171d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #a7b1bc;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.desktop_header__profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #df9090;
+}
