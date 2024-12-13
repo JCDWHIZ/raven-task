@@ -1,5 +1,3 @@
-
-
 .desktop_header {
   height: 72px;
   width: 100%;
@@ -22,7 +20,7 @@
   width: 25%;
 }
 
-.desktop_header__nav {
+.desktop_header__nav ul {
   display: flex;
   width: 276px;
   justify-content: space-between;

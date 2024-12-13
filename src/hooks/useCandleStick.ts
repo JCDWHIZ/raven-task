@@ -102,5 +102,6 @@ export const useCandleStick = () => {
 
   return {
     state,
+    setState
   };
 };

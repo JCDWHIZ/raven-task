@@ -1,10 +1,8 @@
-
 .mobile-header {
   height: 64px;
+  width: 100%;
   border-bottom: 1px solid #32383f;
   padding: 0 16px;
-  display: flex;
-  align-items: center;
   position: relative;
   z-index: 999;
 }
@@ -26,6 +24,7 @@
 .mobile-header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .mobile-header__actions img {
